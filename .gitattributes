@@ -1,0 +1,38 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Binary files - never convert line endings
+*.pdf binary
+*.pkl binary
+*.joblib binary
+*.h5 binary
+*.hdf5 binary
+*.pt binary
+*.pth binary
+*.onnx binary
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
+*.gz binary
+*.tar binary
+
+# CSV and text data files - keep LF
+*.csv text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Python files - keep LF
+*.py text eol=lf
+
+# Web files - keep LF
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
