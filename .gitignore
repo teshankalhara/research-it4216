@@ -70,3 +70,5 @@ pdf-tampering-app/frontend/.next/
 *.temp
 tmp/
 temp/
+
+.claude
